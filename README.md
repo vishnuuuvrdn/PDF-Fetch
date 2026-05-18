@@ -1,20 +1,10 @@
-# 📄 PDF Fetch — Chrome Extension
+# PDF Fetch — Chrome Extension
 
 A lightweight Chrome extension that automatically detects PDFs loaded in your browser and lets you download them instantly with a single click.
 
 ---
 
-## ✨ Features
-
-- 🔍 **Auto-detects PDFs** — Monitors network responses and identifies PDF content types in real time
-- ⚡ **One-click download** — Download any detected PDF directly from the popup
-- 🧹 **Clean state management** — Clears the stored URL on every new page load to avoid stale downloads
-- 🎨 **Minimal, polished UI** — Simple popup with clear status feedback (success / error)
-- 🔒 **Manifest V3** — Built on the latest Chrome extension standard
-
----
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 PDF-Fetch/
@@ -27,9 +17,8 @@ PDF-Fetch/
 
 ---
 
-## 🚀 Installation (Load Unpacked)
+## Installation (Load Unpacked)
 
-> Chrome Web Store listing coming soon. For now, install manually:
 
 1. **Clone or download** this repository:
    ```bash
@@ -49,7 +38,7 @@ PDF-Fetch/
 
 ---
 
-## 🧑‍💻 How It Works
+## How It Works
 
 1. **Background Service Worker (`background.js`)**
    - Listens to all HTTP/HTTPS responses via `chrome.webRequest.onHeadersReceived`
@@ -64,7 +53,7 @@ PDF-Fetch/
 
 ---
 
-## 🔑 Permissions
+## Permissions
 
 | Permission | Reason |
 |---|---|
@@ -76,7 +65,7 @@ PDF-Fetch/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Manifest V3** — Latest Chrome extension platform
 - **Chrome Extensions API** — `webRequest`, `downloads`, `storage`, `tabs`
@@ -85,7 +74,7 @@ PDF-Fetch/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -97,13 +86,13 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Icon sourced from [Flaticon](https://www.flaticon.com)
 - Built using the [Chrome Extensions Manifest V3](https://developer.chrome.com/docs/extensions/mv3/) platform
