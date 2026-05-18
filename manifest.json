@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Fetch",
+  "version": "1.0",
+
+  "permissions": [
+    "downloads",
+    "storage",
+    "webRequest",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+  "48":  "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    "48": "icon.png"
+  }
+}
+}
