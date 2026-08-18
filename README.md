@@ -1,4 +1,4 @@
-# PDF Fetch — Chrome Extension
+# PDF Fetch - Chrome Extension
 
 A lightweight Chrome extension that automatically detects PDFs loaded in your browser and lets you download them instantly with a single click.
 
